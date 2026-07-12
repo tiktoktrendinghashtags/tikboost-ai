@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TikBoost AI</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<h1>TikBoost AI</h1>
+
+<p>Create viral TikTok hashtags using AI.</p>
+
+</header>
+
+<div class="card">
+
+<textarea
+id="description"
+placeholder="Describe your TikTok video..."
+></textarea>
+
+<button id="generateBtn">
+Generate
+</button>
+
+</div>
+
+<div id="loading" class="hidden">
+
+<div class="spinner"></div>
+
+<p>Generating...</p>
+
+</div>
+
+<div id="results" class="hidden">
+
+<h2>Results</h2>
+
+<div class="result-box">
+
+<h3>Caption</h3>
+
+<p id="caption"></p>
+
+</div>
+
+<div class="result-box">
+
+<h3>Hook</h3>
+
+<p id="hook"></p>
+
+</div>
+
+<div class="result-box">
+
+<h3>Hashtags</h3>
+
+<p id="hashtags"></p>
+
+</div>
+
+<button id="copyBtn">
+
+Copy All
+
+</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
